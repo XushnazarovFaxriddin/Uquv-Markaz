@@ -1,0 +1,33 @@
+﻿<Window x:Class="Uquv_Markaz.Pages.Groups.Update"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uquv_Markaz.Pages.Groups"
+        mc:Ignorable="d"
+        Title="Update" Height="450" Width="800"
+        WindowStyle="None"
+      Background="White">
+    <Grid>
+
+        <TextBlock
+  Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+            HorizontalAlignment="Left" VerticalAlignment="Top" 
+            Margin="20,15,0,0"
+  Text="Guruhni O'zgartirish" />
+
+        <TextBox
+              materialDesign:HintAssist.Hint="Nomi"
+              Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+              VerticalAlignment="Center" Margin="25,47,28.6,361.2" Height="35" />
+        <Button Margin="0 100 29 0" Style="{StaticResource MaterialDesignFlatMidBgButton}" 
+                materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="Auto" 
+                materialDesign:ButtonAssist.CornerRadius="5"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                FontSize="18" Content="O'zgartirish"/>
+        
+        
+    </Grid>
+</Window>
